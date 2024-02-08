@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       body {background-color: rgb(154, 235, 154);
+        margin:10px 50px 50px 480px;
+    }
+    </style><br>
+    <h2><strong> Student Registration Form</strong></h2>
+    <p> Fill in this form to register</p>
+    <form>
+        <label for="fname"><b>First name:</b></label>
+        <input type="text" name="fname" placeholder="Enter your first name" ><br><br>
+        <label for="lname"><b>Last name:</b></label>
+        <input type="text" name="lname" placeholder="Enter your last name" ><br><br>
+        <label  for="email"><b>Email</b></label>
+        <input type="email" name="email" autocomplete="off" placeholder="Enter your email"><br><br>
+        <label  for="Date of Birth"><b>Date of Birth</b></label>
+        <input type="date" name="Date of Birth" placeholder="dd-mm-yyyy"><br><br>
+        <label for="sname"><b>Set Username:</b></label>
+        <input type="text" name="sname" placeholder="Set Username" ><br><br>
+        <label for="pname"><b>Set password:</b></label>
+        <input type="text" name="pname" placeholder="Set password" ><br><br>
+    </form>
+    <form>
+        <label><strong>Gender</strong></label><br>
+        <input type="radio" name="fav_language" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="fav_language" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="fav_language" value="Others">
+        <label for="Others">Others</label><br><br>
+        <!-- <label for="Course"><strong>Course:</strong></label> -->
+        <!-- <input list="course" name="course" placeholder="Course"><br><br> -->
+        <!-- <datalist id="course">
+            <option value="Btech">
+            <option value="Bsc">
+            <option value="Bcom">
+            <option value="BA">
+            <option value="BCA">
+          </datalist> -->
+    <label for="courses"><strong>Course:</strong></label>
+    <select id="course"name="course">
+        <option value="Course">Course</option>
+        <option value="BSC">BSC</option>
+        <option value="Btech">Btech</option>
+        <option value="BBA">BBA</option>
+    </select><br><br>
+        <input type="button" value="Register">
+     
+    </form> 
+</head>
+</html>
